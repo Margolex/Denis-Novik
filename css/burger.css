@@ -1,0 +1,9 @@
+.burger {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .burger {
+    display: block;
+  }
+}
