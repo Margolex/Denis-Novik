@@ -1,0 +1,16 @@
+.nav {
+  border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  padding: 32px 0;
+  color: #828282;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.nav__link:hover {
+  transition: 0.3s;
+  color: #070707;
+}

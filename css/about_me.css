@@ -1,0 +1,19 @@
+.about_me {
+  padding: 120px 0 107px;
+  background-color: #f6f6f6;
+}
+
+.about_me_info {
+  margin: 0 auto;
+  max-width: 485px;
+  text-align: center;
+}
+
+.about_me_title {
+  margin: 0 0 18px;
+}
+.about_me_text {
+  display: flex;
+  flex-direction: column;
+  gap: 43px 0;
+}

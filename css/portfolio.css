@@ -1,0 +1,30 @@
+.portfolio {
+  background: #f6f6f6;
+  padding: 113px 0 96px;
+}
+
+.portfolio_title {
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.item_img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 43px;
+}
+
+.item_link {
+  display: block;
+  text-align: center;
+  transition: 0.3s;
+}
+.item_link:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.portfolio_item:nth-child(3) {
+  margin: 99px 0;
+}

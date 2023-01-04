@@ -1,0 +1,45 @@
+.contacts {
+  padding: 114px 0 123px;
+}
+
+.contacts_title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contacts_text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.send_message {
+  display: block;
+  text-align: center;
+  width: 180px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.social_networks {
+  display: flex;
+  width: 342px;
+  height: 40px;
+  justify-content: space-between;
+  margin: 86px auto 46px;
+}
+
+.follow {
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+}
+
+@media (max-width: 479px) {
+  .send_message {
+    width: 100%;
+  }
+}
