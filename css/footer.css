@@ -31,12 +31,12 @@
   cursor: pointer;
 }
 
-.send_message:hover {
+/* .send_message:hover {
   opacity: 90%;
 }
 .send_message:active {
   opacity: 80%;
-}
+} */
 
 .social_networks {
   display: flex;
