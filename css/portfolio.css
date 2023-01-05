@@ -18,10 +18,11 @@
 .item_link {
   display: block;
   text-align: center;
+  text-decoration: underline;
   transition: 0.3s;
 }
 .item_link:hover {
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.3s;
 }
 

@@ -32,7 +32,8 @@
 
 .burger__check:checked ~ .list {
   transform: translateX(0);
-  transition: 0.5s;
+  transition: 1s;
+  scroll-behavior: smooth;
 }
 
 .burger__check:checked ~ .burger__line:nth-child(3) {
@@ -40,9 +41,11 @@
 }
 .burger__check:checked ~ .burger__line:nth-child(2) {
   transform: rotate(45deg) translateY(11px);
+  transition: 0.5s;
 }
 .burger__check:checked ~ .burger__line:nth-child(4) {
   transform: rotate(-45deg) translateY(-11px);
+  transition: 0.5s;
 }
 
 .burger__line:nth-child(3) {
@@ -68,9 +71,16 @@
 }
 
 .list__link {
+  color: #828282;
+  transition: 0.3s;
   font-size: 34px;
   line-height: 42px;
   margin-bottom: 68px;
   display: block;
   font-weight: 700;
+}
+
+.list__link:hover {
+  transition: 0.3s;
+  color: #070707;
 }

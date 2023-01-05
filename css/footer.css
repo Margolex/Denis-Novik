@@ -14,14 +14,28 @@
 
 .send_message {
   display: block;
-  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
   width: 180px;
   height: 42px;
   background-color: black;
   color: white;
   border-radius: 100px;
   margin: 0 auto;
-  padding-top: 10px;
+  cursor: pointer;
+}
+
+.send_message:hover {
+  opacity: 90%;
+}
+.send_message:active {
+  opacity: 80%;
 }
 
 .social_networks {

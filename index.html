@@ -10,31 +10,35 @@
   <body>
     <header class="header">
       <div class="container">
+        <!-- navigation -->
         <nav class="nav">
-          <a href="" class="nav__link">Home</a>
-          <a href="" class="nav__link">About me</a>
-          <a href="" class="nav__link">Skills</a>
-          <a href="" class="nav__link">Portfolio</a>
-          <a href="" class="nav__link">Contacts</a>
+          <a href="#home" class="nav__link">Home</a>
+          <a href="#about" class="nav__link">About me</a>
+          <a href="#skills" class="nav__link">Skills</a>
+          <a href="#portfolio" class="nav__link">Portfolio</a>
+          <a href="#contacts" class="nav__link">Contacts</a>
         </nav>
+        <!-- burger menu -->
         <nav class="burger">
           <input class="burger__check" type="checkbox" />
           <span class="burger__line"></span>
           <span class="burger__line"></span>
           <span class="burger__line"></span>
           <ul class="list">
-            <li class="list__item"><a href="#" class="list__link">Home</a></li>
             <li class="list__item">
-              <a href="#" class="list__link">About me</a>
+              <a href="#home" class="list__link">Home</a>
             </li>
             <li class="list__item">
-              <a href="#" class="list__link">Skills</a>
+              <a href="#about" class="list__link">About me</a>
             </li>
             <li class="list__item">
-              <a href="#" class="list__link">Portfolio</a>
+              <a href="#skills" class="list__link">Skills</a>
             </li>
             <li class="list__item">
-              <a href="#" class="list__link">Contacts</a>
+              <a href="#portfolio" class="list__link">Portfolio</a>
+            </li>
+            <li class="list__item">
+              <a href="#contacts" class="list__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -43,8 +47,9 @@
     <main>
       <section class="home">
         <div class="container">
+          <!-- home info -->
           <div class="home_info">
-            <h1 class="home__title">Denis Novik</h1>
+            <h1 class="home__title" id="home">Denis Novik</h1>
             <p class="home__subtitle">
               UX | UI designer 24&nbsp;years old, Minsk
             </p>
@@ -57,17 +62,18 @@
             />
             <img
               class="home__img_mob"
-              src="./img/mobile.jpg"
+              src="./img/mobile.png"
               alt="Author -
             photo"
             />
           </div>
         </div>
+        <!-- section "about me" -->
       </section>
       <section class="about_me">
         <div class="container">
           <div class="about_me_info">
-            <h2 class="about_me_title">About me</h2>
+            <h2 class="about_me_title" id="about">About me</h2>
             <div class="about_me_text">
               <p>
                 Hi, I'm Denis – UX/UI designer from Minsk.
@@ -86,10 +92,11 @@
           </div>
         </div>
       </section>
+      <!-- section "skills" -->
       <section>
         <div class="skills">
           <div class="container">
-            <h2 class="skills_title">Skills</h2>
+            <h2 class="skills_title" id="skills">Skills</h2>
             <p class="skills_info">I work in such programs as</p>
             <div class="skills_programs">
               <div class="Ph_about">
@@ -138,6 +145,7 @@
                   Adobe <br />
                   After Effects
                 </p>
+                <!-- rating stars -->
                 <div class="rating">
                   <img class="stars" src="./img/star_black.svg" alt="★" />
                   <img class="stars" src="./img/star_black.svg" alt="★" />
@@ -161,9 +169,10 @@
           </div>
         </div>
       </section>
+      <!-- section "portfolio" -->
       <section class="portfolio">
         <div class="container">
-          <h2 class="portfolio_title">Portfolio</h2>
+          <h2 class="portfolio_title" id="portfolio">Portfolio</h2>
           <div class="portfolio_item">
             <img
               srcset="./img/levis.jpg 1x, ./img/levis_2x.jpg 2x"
@@ -191,14 +200,15 @@
         </div>
       </section>
     </main>
+    <!-- contacts -->
     <footer class="contacts">
       <div class="container">
-        <h2 class="contacts_title">Contacts</h2>
+        <h2 class="contacts_title" id="contacts">Contacts</h2>
         <p class="contacts_text">
           Want to know more or just chat? <br />
           You are welcome!
         </p>
-        <div class="send_message">Send message</div>
+        <input class="send_message" type="button" value="Send message" />
         <div class="social_networks">
           <a href=""><img src="./img/in.svg" alt="LinkedIn" /></a>
           <a href=""><img src="./img/insta.svg" alt="Instagram" /></a>
