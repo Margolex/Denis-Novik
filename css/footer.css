@@ -16,10 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Gilroy";
   font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
   width: 180px;
   height: 42px;
   background-color: black;
@@ -32,9 +29,13 @@
 
 .send_message:hover {
   opacity: 90%;
+  transform: translateY(-3px);
+  transition: 0.3s;
+  background-color: aqua;
 }
 .send_message:active {
   opacity: 80%;
+  background-color: aquamarine;
 }
 
 .social_networks {

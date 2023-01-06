@@ -3,7 +3,7 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 850px) {
   .burger {
     display: block;
   }
@@ -33,7 +33,6 @@
 .burger__check:checked ~ .list {
   transform: translateX(0);
   transition: 1s;
-  scroll-behavior: smooth;
 }
 
 .burger__check:checked ~ .burger__line:nth-child(3) {
