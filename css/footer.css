@@ -13,10 +13,8 @@
 }
 
 .send_message {
-  display: block;
-  flex-direction: row;
+  display: flex;
   align-items: center;
-  align-content: center;
   justify-content: center;
   font-family: "Gilroy";
   font-weight: 700;
